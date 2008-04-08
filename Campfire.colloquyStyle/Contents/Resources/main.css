@@ -1,0 +1,265 @@
+/*  Based on Fiat - by dzhim and nsraffy  */
+
+body {
+	margin: 4px 0 5px 0;
+	color: #4b4b4b;
+	background-color: white;
+	font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+	font-size: 0.8em;
+	padding:0px 20px 10px 20px;
+}
+
+a img {
+	border: 0;
+}
+
+img {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:8px;
+	max-width: 100%;
+}
+
+a:link, a:visited, a:hover, a:active { color:#0033cc; }
+a:hover {
+	text-shadow: rgba( 0, 0, 0, .3 ) 0 1px 1px;
+}
+
+#consecutiveInsert {
+	display: none;
+}
+
+.error:before {
+	content: "(";
+}
+
+.error:after {
+	content: ")";
+}
+
+.header_top {
+	display: none;
+
+}
+
+.header {
+	display: block;
+	position: relative;
+	width: 100px;
+  float: left;
+  text-align: right;
+	background:#efefef;
+	color: #363636; 
+	text-decoration: none;
+	padding:4px;
+	font-weight: bold;
+	overflow:hidden;
+}
+
+.header > span {
+
+}
+
+.header > span > span {
+
+}
+
+.header .left {
+
+	
+}
+
+.header .right {
+	
+}
+
+.header .sender {
+
+}
+
+.header img {
+
+}
+
+.messages {
+	display: block;
+	margin: 0;
+	
+	
+}
+
+.messages > span {
+	display: block;
+	background: #efefef;	
+}
+
+.messages > span > span {
+	display: block;
+	background: #fff;
+	margin-left: 108px;
+	padding-left:1px;
+	border-left:1px solid #dcdcdc;
+}
+
+.messages .time[title] {
+	display: block;
+	
+}
+
+.messages .time.inline {
+display:none;
+	
+}
+
+.messages .time[title]:after {
+	display:none;
+
+}
+
+.messages .sep {
+	display: none;
+}
+
+.messages .message {
+	line-height: 1.4em;	
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	display: block;
+	margin-bottom: 0px;
+	border-bottom:#efefef 1px solid;
+	word-wrap: break-word;
+	-khtml-line-break: after-white-space;
+	-khtml-nbsp-mode: space;
+	
+}
+
+.messages_bottom {
+	display: none;
+
+}
+
+.messages_bottom .left {
+	display: none;
+
+}
+
+.messages_bottom .right {
+	display: none;
+
+}
+
+
+.event {
+	color: #363636;
+	background:#d9e7fb;
+	border-bottom:white 1px solid;
+	font-size:0.75em;
+	padding-top:5px;
+	padding-bottom:5px;
+	display: block;
+}
+
+.event .time {
+	margin: 0 4px;
+	padding: 0;
+	display: block;
+	float: left;
+	color: #333333;
+	width:100px;
+	text-align:right;
+}
+
+.event .message {
+	margin: 0;
+	padding-left: 5px;
+	color: #303030;
+	word-wrap: break-word;
+	-khtml-line-break: after-white-space;
+	-khtml-nbsp-mode: space;
+}
+
+.event a {
+	color: #404040;
+}
+
+.incoming .header > span > span {
+
+}
+
+.incoming .messages .highlight {
+
+}
+
+.incoming .header .sender {
+	color: #333333;
+}
+
+.incoming .messages .time.inline {
+}
+
+.incoming .messages .time[title]:after {
+}
+
+.incoming .messages .sep {
+
+}
+
+.incoming .messages_bottom {
+}
+
+.incoming .messages_bottom .left {
+}
+
+.incoming .messages_bottom .right {
+}
+
+.outgoing .header > span > span {
+}
+
+.outgoing .header .sender {
+	color: #333333;
+}
+
+.outgoing .header {
+	background:#ffffcc;
+}
+
+.outgoing .messages > span > span {
+	background: #ffffcc;
+}
+
+.outgoing .messages > span {
+	background: #ffffcc;
+}
+
+.outgoing .messages .time.inline {
+}
+
+.outgoing .messages .time[title]:after {
+}
+
+.outgoing .messages .sep {
+
+}
+
+.outgoing .messages_bottom {
+}
+
+.outgoing .messages_bottom .left {
+	
+}
+
+.outgoing .messages_bottom .right {
+
+}
+
+.member {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+.member:hover {
+	text-decoration: underline;
+}
