@@ -6,7 +6,7 @@ body {
 	background-color: white;
 	font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
 	font-size: 0.8em;
-	padding:0px 20px 10px 20px;
+	padding: 0px 20px 10px 20px;
 }
 
 a img {
@@ -17,11 +17,13 @@ img {
 	display: block;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	padding-left:8px;
+	padding-left: 8px;
 	max-width: 100%;
 }
 
-a:link, a:visited, a:hover, a:active { color:#0033cc; }
+a:link, a:visited, a:hover, a:active {
+	color: #0033cc;
+}
 a:hover {
 	text-shadow: rgba( 0, 0, 0, .3 ) 0 1px 1px;
 }
@@ -40,53 +42,43 @@ a:hover {
 
 .header_top {
 	display: none;
-
 }
 
 .header {
 	display: block;
 	position: relative;
 	width: 100px;
-  float: left;
-  text-align: right;
-	background:#efefef;
-	color: #363636; 
+	float: left;
+	text-align: right;
+	background: #efefef;
+	color: #363636;
 	text-decoration: none;
-	padding:4px;
+	padding: 4px;
 	font-weight: bold;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 .header > span {
-
 }
 
 .header > span > span {
-
 }
 
 .header .left {
-
-	
 }
 
 .header .right {
-	
 }
 
 .header .sender {
-
 }
 
 .header img {
-
 }
 
 .messages {
 	display: block;
 	margin: 0;
-	
-	
 }
 
 .messages > span {
@@ -98,23 +90,20 @@ a:hover {
 	display: block;
 	background: #fff;
 	margin-left: 108px;
-	padding-left:1px;
-	border-left:1px solid #dcdcdc;
+	padding-left: 1px;
+	border-left: 1px solid #dcdcdc;
 }
 
 .messages .time[title] {
 	display: block;
-	
 }
 
 .messages .time.inline {
-display:none;
-	
+	display: none;
 }
 
 .messages .time[title]:after {
-	display:none;
-
+	display: none;
 }
 
 .messages .sep {
@@ -123,41 +112,36 @@ display:none;
 
 .messages .message {
 	line-height: 1.4em;	
-	padding-top:4px;
-	padding-bottom:4px;
-	padding-left:4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
 	display: block;
 	margin-bottom: 0px;
-	border-bottom:#efefef 1px solid;
+	border-bottom: #efefef 1px solid;
 	word-wrap: break-word;
 	-khtml-line-break: after-white-space;
 	-khtml-nbsp-mode: space;
-	
 }
 
 .messages_bottom {
 	display: none;
-
 }
 
 .messages_bottom .left {
 	display: none;
-
 }
 
 .messages_bottom .right {
 	display: none;
-
 }
-
 
 .event {
 	color: #363636;
-	background:#d9e7fb;
-	border-bottom:white 1px solid;
-	font-size:0.75em;
-	padding-top:5px;
-	padding-bottom:5px;
+	background: #d9e7fb;
+	border-bottom: white 1px solid;
+	font-size: 0.75em;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	display: block;
 }
 
@@ -167,8 +151,8 @@ display:none;
 	display: block;
 	float: left;
 	color: #333333;
-	width:100px;
-	text-align:right;
+	width: 100px;
+	text-align: right;
 }
 
 .event .message {
@@ -185,11 +169,9 @@ display:none;
 }
 
 .incoming .header > span > span {
-
 }
 
 .incoming .messages .highlight {
-
 }
 
 .incoming .header .sender {
@@ -203,7 +185,6 @@ display:none;
 }
 
 .incoming .messages .sep {
-
 }
 
 .incoming .messages_bottom {
@@ -223,7 +204,7 @@ display:none;
 }
 
 .outgoing .header {
-	background:#ffffcc;
+	background: #ffffcc;
 }
 
 .outgoing .messages > span > span {
@@ -241,18 +222,15 @@ display:none;
 }
 
 .outgoing .messages .sep {
-
 }
 
 .outgoing .messages_bottom {
 }
 
 .outgoing .messages_bottom .left {
-	
 }
 
 .outgoing .messages_bottom .right {
-
 }
 
 .member {
