@@ -50,7 +50,7 @@ a:hover {
   float: left;
   text-align: right;
 	background:#efefef;
-	color: #363636; 
+	color: #363636;
 	text-decoration: none;
 	padding:4px;
 	font-weight: bold;
@@ -67,11 +67,11 @@ a:hover {
 
 .header .left {
 
-	
+
 }
 
 .header .right {
-	
+
 }
 
 .header .sender {
@@ -85,13 +85,13 @@ a:hover {
 .messages {
 	display: block;
 	margin: 0;
-	
-	
+
+
 }
 
 .messages > span {
 	display: block;
-	background: #efefef;	
+	background: #efefef;
 }
 
 .messages > span > span {
@@ -104,12 +104,12 @@ a:hover {
 
 .messages .time[title] {
 	display: block;
-	
+
 }
 
 .messages .time.inline {
 display:none;
-	
+
 }
 
 .messages .time[title]:after {
@@ -122,7 +122,7 @@ display:none;
 }
 
 .messages .message {
-	line-height: 1.4em;	
+	line-height: 1.4em;
 	padding-top:4px;
 	padding-bottom:4px;
 	padding-left:4px;
@@ -132,7 +132,7 @@ display:none;
 	word-wrap: break-word;
 	-khtml-line-break: after-white-space;
 	-khtml-nbsp-mode: space;
-	
+
 }
 
 .messages_bottom {
@@ -248,7 +248,7 @@ display:none;
 }
 
 .outgoing .messages_bottom .left {
-	
+
 }
 
 .outgoing .messages_bottom .right {
