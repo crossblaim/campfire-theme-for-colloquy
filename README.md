@@ -1,4 +1,4 @@
-== INSTALLATION
+## INSTALLATION
 
 Open terminal:
 
@@ -11,7 +11,7 @@ Open terminal:
 
 Restart Colloquy.
 
-== CONTRIBUTORS
+## CONTRIBUTORS
 
 * Original Author: Claudio Perez Gamayo ( https://github.com/crossblaim )
 * Joel Watson ( http://github.com/watsonian )
