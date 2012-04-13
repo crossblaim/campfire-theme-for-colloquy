@@ -4,8 +4,8 @@ In Terminal:
 
     mkdir ~/Library/Application\ Support/Colloquy/Repositories
     cd ~/Library/Application\ Support/Colloquy/Repositories
-    git clone git@github.com:crossblaim/colloquy-theme-campfire.git
-    ln -s ../Repositories/colloquy-theme-campfire/Campfire.colloquyStyle ../Styles/Campfire.colloquyStyle
+    git clone git@github.com:crossblaim/campfire-theme-for-colloquy.git
+    ln -s ../Repositories/campfire-theme-for-colloquy/Campfire.colloquyStyle ../Styles/Campfire.colloquyStyle
 
 Restart Colloquy.
 
