@@ -1,8 +1,8 @@
 ## INSTALLATION
 
-Open terminal:
+In Terminal:
 
-    cd ~/Library/Application Support/Colloquy
+    cd ~/Library/Application\ Support/Colloquy
     mkdir Repositories
     cd Repositories
     git clone git@github.com:benlinton/colloquy-theme-campfire.git
