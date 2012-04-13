@@ -2,12 +2,10 @@
 
 In Terminal:
 
-    cd ~/Library/Application\ Support/Colloquy
-    mkdir Repositories
-    cd Repositories
+    mkdir ~/Library/Application\ Support/Colloquy/Repositories
+    cd ~/Library/Application\ Support/Colloquy/Repositories
     git clone git@github.com:benlinton/colloquy-theme-campfire.git
-    cd ../Styles
-    ln -s ../Repositories/colloquy-theme-campfire/Campfire.colloquyStyle ./Campfire.colloquyStyle
+    ln -s ../Repositories/colloquy-theme-campfire/Campfire.colloquyStyle ../Styles/Campfire.colloquyStyle
 
 Restart Colloquy.
 
