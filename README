@@ -1,15 +1,17 @@
-INSTALLATION
+== INSTALLATION
 
-1. copy the file "Campfire.colloquyStyle" to "~/Library/Application Support/Colloquy/Styles"
-2. write "/reload style" in a colloquy window or restart Colloquy.
-3. enjoy
+Open terminal:
 
-( If you want a similar theme for Adium, try http://github.com/watsonian/campfire-adium-message-style )
+    cd ~/Library/Application Support/Colloquy
+    mkdir Repositories
+    cd Repositories
+    git clone git@github.com:benlinton/colloquy-theme-campfire.git
+    cd ../Styles
+    ln -s ../Repositories/colloquy-theme-campfire/Campfire.colloquyStyle ./Campfire.colloquyStyle
 
-CONTRIBUTORS
+Restart Colloquy.
 
+== CONTRIBUTORS
+
+* Original Author: Claudio Perez Gamayo ( https://github.com/crossblaim )
 * Joel Watson ( http://github.com/watsonian )
-
---
-Claudio Perez Gamayo
-http://80kv.com
