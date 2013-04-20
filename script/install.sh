@@ -26,7 +26,7 @@ echo ""
 command_exists "git" ||
   error "Please install 'git' first."
 
-# Create dirs exist if they don't exist already
+# Create dirs if they don't exist already
 mkdir -p "$source_path"
 mkdir -p "$styles_path"
 

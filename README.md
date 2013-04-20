@@ -2,6 +2,8 @@
 
 [Colloquy](http://colloquy.info) theme modeled after [Campfire chat](http://campfirenow.com).
 
+![Colloquy Campfire Theme](screenshots/colloquy-theme-campfire-normal.png?raw=true)
+
 ## Installation
 
 ### Quick Install
@@ -19,7 +21,7 @@ In Terminal:
     mkdir ~/Library/Application\ Support/Colloquy/Repositories
     cd ~/Library/Application\ Support/Colloquy/Repositories
     git clone https://github.com/crossblaim/campfire-theme-for-colloquy.git
-    ln -s ../Repositories/colloquy-theme-campfire/Campfire.colloquyStyle ../Styles/Campfire.colloquyStyle
+    ln -s ../Repositories/campfire-theme-for-colloquy/Campfire.colloquyStyle ../Styles/Campfire.colloquyStyle
 
 Restart Colloquy.
 
